@@ -6,11 +6,9 @@
  * cmd> cd target
 
 ###Run application in local:
-cmd> java -jar springboot-rest-webservice-0.1.0.jar --server.port=8088
+ * cmd> java -jar springboot-rest-webservice-0.1.0.jar --server.port=8088
 
 #####Rest Webservice URLs:
-Hit below URLs in browser to view the results:
-<br/>
  * http://localhost:8088/sayHello?name=Ravi
  * http://localhost:8088/sayhi
  
