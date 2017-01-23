@@ -13,6 +13,7 @@
  * http://localhost:8088/sayhi
  
 ###Run application in PCF:
+ * Install CloudFoundry client in local - https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
  * Create a free account in PCF - https://run.pivotal.io
  * Add a Space in PCF WebServices window - https://console.run.pivotal.io (I created "webservice-space")
  * cmd> cf login -a https://console.run.pivotal.io
