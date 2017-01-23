@@ -1,0 +1,6 @@
+---
+applications:
+- name: springboot-rest-webservice
+  memory: 512M
+  instances: 1
+  random-route: true
