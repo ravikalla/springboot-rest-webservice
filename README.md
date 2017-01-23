@@ -15,7 +15,7 @@
 ###Run application in PCF:
  * Install CloudFoundry client in local - https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
  * Create a free account in PCF - https://run.pivotal.io
- * Add a Space in PCF WebServices window - https://console.run.pivotal.io (I created "webservice-space")
+ * Add a Space in PCF WebServices window - https://console.run.pivotal.io (I created space named "webservice-space")
  * cmd> cf login -a https://console.run.pivotal.io
  * cmd> cf target -s <b><i>webservice-space</i></b>
  * cmd> cf push <b><i>springboot-rest-webservice</i></b> -p <b><i>target/springboot-rest-webservice-0.1.0.jar</i></b>
