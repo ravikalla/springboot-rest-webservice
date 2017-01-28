@@ -29,7 +29,7 @@ public class SampleControllerTests {
                 .andExpect(jsonPath("$.content").value("Hello, World!")))
     		blnStatus = false;
     	else
-    		blnStatus = false;
+    		blnStatus = true;
     	assertTrue(blnStatus);
     }
 
