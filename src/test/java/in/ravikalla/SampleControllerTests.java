@@ -24,17 +24,19 @@ public class SampleControllerTests {
 
     @Test
     public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
-        this.mockMvc.perform(get("/sayHello")).andDo(print()).andExpect(status().isOk())
-                .andExpect(jsonPath("$.content").value("Hello, World!"));
-        assertTrue( true );
+    	if (null != this.mockMvc.perform(get("/sayHello")).andDo(print()).andExpect(status().isOk())
+                .andExpect(jsonPath("$.content").value("Hello, World!")))
+    		assertTrue( true );
+    	assertTrue( false);
     }
 
     @Test
     public void paramGreetingShouldReturnTailoredMessage() throws Exception {
-        this.mockMvc.perform(get("/sayHello").param("name", "Spring Community"))
+        if (null != this.mockMvc.perform(get("/sayHello").param("name", "Spring Community"))
                 .andDo(print()).andExpect(status().isOk())
-                .andExpect(jsonPath("$.content").value("Hello, Spring Community!"));
-        assertTrue( true );
+                .andExpect(jsonPath("$.content").value("Hello, Spring Community!")))
+			assertTrue( true );
+		assertTrue( false);
     }
 
 //    @Test
@@ -43,4 +45,3 @@ public class SampleControllerTests {
 //                .andExpect(jsonPath("$.content").value("Hi"));
 //    }
 }
-
