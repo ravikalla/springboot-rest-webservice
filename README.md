@@ -32,4 +32,3 @@
 ###Reference
  * Spring Webservices - https://spring.io/guides/gs/actuator-service/
  * Pivotal - http://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/introduction
-
