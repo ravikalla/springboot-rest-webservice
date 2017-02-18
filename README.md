@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/ravikalla/springboot-rest-webservice.svg?branch=master)](https://travis-ci.org/ravikalla/springboot-rest-webservice)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac38a5e5d954475980e46c279494be23)](https://www.codacy.com/app/ravikalla/springboot-rest-webservice?utm_source=github.com&utm_medium=referral&utm_content=ravikalla/springboot-rest-webservice&utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-
+[ ![Codeship Status for ravikalla/springboot-rest-webservice](https://app.codeship.com/projects/b1a01050-d7c9-0134-421a-5ea80f2ec735/status?branch=master)](https://app.codeship.com/projects/203126)
 # Webservices using Springboot
 
 ###Download code:
