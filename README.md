@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac38a5e5d954475980e46c279494be23)](https://www.codacy.com/app/ravikalla/springboot-rest-webservice?utm_source=github.com&utm_medium=referral&utm_content=ravikalla/springboot-rest-webservice&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/ravikalla/springboot-rest-webservice.svg?branch=master)](https://travis-ci.org/ravikalla/springboot-rest-webservice)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac38a5e5d954475980e46c279494be23)](https://www.codacy.com/app/ravikalla/springboot-rest-webservice?utm_source=github.com&utm_medium=referral&utm_content=ravikalla/springboot-rest-webservice&utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
