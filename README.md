@@ -4,19 +4,19 @@
 [ ![Codeship Status for ravikalla/springboot-rest-webservice](https://app.codeship.com/projects/b1a01050-d7c9-0134-421a-5ea80f2ec735/status?branch=master)](https://app.codeship.com/projects/203126)
 # Webservices using Springboot
 
-###Download code:
+### Download code:
  * cmd> git clone https://github.com/ravikalla/springboot-rest-webservice.git
  * cmd> mvn clean install
  * cmd> cd target
 
-###Run application in local:
+### Run application in local:
  * cmd> java -jar springboot-rest-webservice-0.1.0.jar --server.port=8088
 
-#####Rest Webservice URLs:
+##### Rest Webservice URLs:
  * http://localhost:8088/sayHello?name=Ravi
  * http://localhost:8088/sayhi
  
-###Run application in PCF:
+### Run application in PCF:
  * Install CloudFoundry client in local - https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
  * Create a free account in PCF - https://run.pivotal.io
  * Add a Space in PCF WebServices window - https://console.run.pivotal.io (I created space named "webservice-space")
@@ -25,10 +25,10 @@
  * cmd> cf push <b><i>springboot-rest-webservice</i></b> -p <b><i>target/springboot-rest-webservice-0.1.0.jar</i></b>
 <br/>
 
-####Rest Webservice URLs:
+#### Rest Webservice URLs:
  * https://springboot-rest-webservice.cfapps.io/sayhi
  * https://springboot-rest-webservice.cfapps.io/sayHello?name=Ravi
 
-###Reference
+### Reference
  * Spring Webservices - https://spring.io/guides/gs/actuator-service/
  * Pivotal - http://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/introduction
